@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "pubmed-mcp-server": {
+      "command": "npx",
+      "args": ["@cyanheads/pubmed-mcp-server"],
+      "env": {
+        "NCBI_API_KEY": "YOUR_NCBI_API_KEY_HERE"
+      }
+    },
+    "semantic-scholar": {
+      "command": "ABSOLUTE_PATH_TO_VENV_PYTHON",
+      "args": ["ABSOLUTE_PATH_TO_RUN_PY"],
+      "env": {
+        "SEMANTIC_SCHOLAR_API_KEY": "",
+        "SEMANTIC_SCHOLAR_ENABLE_HTTP_BRIDGE": "0"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+
+      "WebFetch(domain:pubmed.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:pmc.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:ncbi.nlm.nih.gov)",
+      "WebFetch(domain:scholar.google.com)",
+      "WebFetch(domain:doi.org)",
+      "WebFetch(domain:arxiv.org)",
+
+      "WebFetch(domain:jamanetwork.com)",
+      "WebFetch(domain:biomedcentral.com)",
+      "WebFetch(domain:academic.oup.com)",
+      "WebFetch(domain:onlinelibrary.wiley.com)",
+      "WebFetch(domain:springer.com)",
+      "WebFetch(domain:journals.plos.org)",
+      "WebFetch(domain:sciencedirect.com)",
+      "WebFetch(domain:nejm.org)",
+      "WebFetch(domain:thelancet.com)",
+      "WebFetch(domain:bmj.com)",
+      "WebFetch(domain:nber.org)",
+
+      "WebFetch(domain:psnet.ahrq.gov)",
+      "WebFetch(domain:ahrq.gov)",
+      "WebFetch(domain:hhs.gov)",
+
+      "mcp__pubmed-mcp-server__pubmed_search_articles",
+      "mcp__pubmed-mcp-server__pubmed_fetch_contents",
+      "mcp__pubmed-mcp-server__pubmed_article_connections",
+      "mcp__pubmed-mcp-server__pubmed_generate_chart",
+
+      "mcp__semantic-scholar__paper_relevance_search",
+      "mcp__semantic-scholar__paper_bulk_search",
+      "mcp__semantic-scholar__paper_title_search",
+      "mcp__semantic-scholar__paper_details",
+      "mcp__semantic-scholar__paper_batch_details",
+      "mcp__semantic-scholar__paper_citations",
+      "mcp__semantic-scholar__paper_references",
+      "mcp__semantic-scholar__get_paper_recommendations_single",
+      "mcp__semantic-scholar__get_paper_recommendations_multi",
+      "mcp__semantic-scholar__author_search",
+      "mcp__semantic-scholar__author_details"
+    ]
+  },
+  "enableAllProjectMcpServers": true
+}
