@@ -12,7 +12,7 @@ A beginner-friendly guide to setting up the **conducting-literature-review** Cla
    - Download: https://code.visualstudio.com
    - Install it like any normal app
 
-2. **Claude Code extension for VS Code** — This is what actually runs the skill
+2. **Claude Code extension for VS Code** — This is what actually runs the skill (IF YOU COPY THIS WORKFLOW FROM HERE ON CLAUDE CODE CAN HELP YOU DO EVERYTHING)
    - Open VS Code → click the Extensions icon (left sidebar, looks like 4 squares) → search "Claude Code" → Install
    - You'll need an Anthropic account. Claude Code uses your Claude Pro/Team subscription or API credits.
    - More info: https://docs.anthropic.com/en/docs/claude-code
@@ -51,7 +51,7 @@ git clone https://github.com/Hcarm/conducting-literature-review.git
 cd conducting-literature-review
 ```
 
-### Step 3: Run the Install Script
+### Step 3: Run the Install Script from inside the same terminal
 
 **Mac/Linux:**
 ```
